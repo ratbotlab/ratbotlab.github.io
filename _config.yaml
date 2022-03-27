@@ -4,7 +4,7 @@
 title: BIT BIOMIMETICS LAB
 description: A bioinspired research lab
 logo: images/logo.png
-logo-text: true
+logo-text: false
 header: images/backgrounds/laptop-paper.jpg
 footer: images/backgrounds/laptop-paper.jpg
 baseurl: ""

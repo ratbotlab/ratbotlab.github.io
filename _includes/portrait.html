@@ -1,26 +1,55 @@
-<a {% if include.link %}href="{{ include.link | relative_url }}"{% endif %} class="portrait" data-mini="{{ include.mini | default: false }}">
+{%- if include.style == "small" -%}
+  {%- assign width = 100 -%}
+{%- else -%}
+  {%- assign width = 150 -%}
+{%- endif -%}
 
-  {%- assign placeholder = include.placeholder | default: "images/placeholder.svg" | relative_url -%}
+{%- assign emptyarray = "" | split: "," -%}
+{%- assign id = include.slug | default: include.id | default: "" -%}
+{%- assign members = site.members | default: emptyarray -%} 
 
+{%- assign member = nil -%}
+{%- for m in members -%}
+  {%- if m.slug == id -%}
+    {%- assign member = m -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- assign url = member.url | default: "" -%}
+
+{::nomarkdown}
+<a {% if url %}href="{{ url | relative_url }}"{% endif %} class="portrait" style="--width: {{ width }}px">
+
+  {%- assign placeholder = "images/placeholder.svg" | relative_url -%}
+
+  {%- assign role = member.role | default: "" -%}
+  {%- if role -%}
+    {%- include role.html type=role -%}
+  {%- endif -%}
+  
+  {%- assign name = member.name | default: "" -%}
+  {%- assign image = member.image | default: "" -%}
   <span class="portrait_image">
-    {%- if include.image -%}
     <img
-      src="{{ include.image | relative_url }}"
+      src="{{ image | relative_url }}"
       onerror="this.src = '{{ placeholder }}'; this.onerror = null;"
+      loading="lazy"
+      alt="{{ name | default: 'Member portrait' }}"
     >
-    {%- else -%}
-    <img src="{{ placeholder }}">
-    {%- endif -%}
   </span>
 
-  {%- if include.role -%}
-  {%- include role.html type=include.role -%}
+  {%- if name -%}
+    <span class="portrait_name">
+      {{ name }}
+    </span>
   {%- endif -%}
 
-  {%- if include.name -%}
-  <span class="portrait_name">
-    {{ include.name }}
-  </span>
+  {%- assign description = member.description | default: "" -%}
+  {%- if description -%}
+    <span class="portrait_description">
+      {{ description }}
+    </span>
   {%- endif -%}
 
 </a>
+{:/}

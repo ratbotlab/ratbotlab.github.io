@@ -1,66 +1,40 @@
-<header>
+{%- assign background = page.header | default: site.header | default: "none" -%}
+{%- if background == "none" -%}
+  {%- assign background = nil -%}
+{%- endif -%}
+
+{%- assign dark = page.header-dark -%}
+{%- if dark == nil -%}
+  {%- assign dark = site.header-dark -%}
+{%- endif -%}
+{%- if dark == nil -%}
+  {%- assign dark = true -%}
+{%- endif -%}
+
+
+<header {% if background %}class="background"{% endif %} {% if background %}style="--background: url('{{ background | relative_url }}')"{% endif %} data-dark="{{ dark }}">
+  {% include fullscreen.html %}
   <a
     href="{{ '/' | relative_url }}"
     class="logo_row"
     data-tooltip="Home"
-    data-placement="bottom"
-    data-delay="400"
   >
-    <span class="logo">
-      {%- include logo.svg -%}
-      <!-- <img src="{{ "images/logo.png" | relative_url }}" /> -->
-    </span>
-    <span class="logo_text">{{ site.title }}</span>
+    <object data="{{ site.logo | relative_url }}" class="logo"></object>
+    {% if site.logo-text != false %}
+      <span class="logo_text">
+        <span class="logo_title">{{ site.title }}</span>
+        {% if site.subtitle %}
+          <span class="logo_subtitle">{{ site.subtitle }}</span>
+        {% endif %}
+      </span>
+    {% endif %}
   </a>
   <nav class="nav_row">
-
-    {%- comment -%}
-    Add or remove header nav links here.
-    
-    Be wary of different screen sizes. Test by resizing your browser window
-    from full-width to very narrow. Adjust the $tablet and $phone cutoff points
-    in /css/variables.scss until the header elements wrap at the right time.
-    {%- endcomment -%}
-
-    <a
-      href="{{ 'research' | relative_url }}"
-      class="nav_link"
-      data-tooltip="Published works"
-      data-placement="bottom"
-      data-delay="400"
-      >Research</a
-    >
-    <a
-      href="{{ 'resources' | relative_url }}"
-      class="nav_link"
-      data-tooltip="Tools, datasets, and more"
-      data-placement="bottom"
-      data-delay="400"
-      >Resources</a
-    >
-    <a
-      href="{{ 'team' | relative_url }}"
-      class="nav_link"
-      data-tooltip="About our team"
-      data-placement="bottom"
-      data-delay="400"
-      >Team</a
-    >
-    <a
-      href="{{ 'blog' | relative_url }}"
-      class="nav_link"
-      data-tooltip="Musings and miscellany"
-      data-placement="bottom"
-      data-delay="400"
-      >Blog</a
-    >
-    <a
-      href="{{ 'contact' | relative_url }}"
-      class="nav_link"
-      data-tooltip="Email, address, and location"
-      data-placement="bottom"
-      data-delay="400"
-      >Contact</a
-    >
+    {%- assign pages = site.pages | where_exp: "page", "page.nav" | sort: "nav.order" -%}
+    {%- for page in pages -%}
+      {%- if page.nav -%}
+        {%- include link.html type="link" text=page.title tooltip=page.nav.tooltip link=page.dir -%}
+      {%- endif -%}
+    {%- endfor -%}
   </nav>
 </header>

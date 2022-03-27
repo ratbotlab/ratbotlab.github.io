@@ -1,5 +1,8 @@
 ---
 title: Team
+nav:
+  order: 3
+  tooltip: About our team
 redirect_from:
   - /lab-members
   - /alums
@@ -8,38 +11,102 @@ redirect_from:
   - /trainees
 ---
 
-# <i class="fas fa-users"></i>
+# <i class="fas fa-users"></i>Team
 
-## Current Members
+Our lab is made up of a highly engaged and collaborative team of researchers.
+We recognize that diverse teams do better research.
+We foster an environment where team members are treated equally, and where we respect and admire our differences.
+The team includes postdocs, students at all levels, staff, and our lab mascots.
 
-Our lab is a team focused on improving the reach, accuracy, and speed of computational analysis, specifically as
-it relates to genomics (and Biology more broadly).  We are a varied and friendly bunch.  If you're interested in 
-the work we're doing, please reach out!
+{% include list.html data="members" component="portrait" filters="role: pi, group: " %}
+{% include list.html data="members" component="portrait" filters="role: postdoc, group: " %}
+{% include list.html data="members" component="portrait" filters="role: phd, group: " %}
+{% include list.html data="members" component="portrait" filters="role: master, group: " %}
+{% include list.html data="members" component="portrait" filters="role: undergrad, group: " %}
+{% include list.html data="members" component="portrait" filters="role: programmer, group: " %}
+{% include list.html data="members" component="portrait" filters="role: mascot, group: " %}
 
-{% capture html %}
-{% include team-list.html role="pi" group="current" %}
-{% include team-list.html role="postdoc" group="current" %}
-{% include team-list.html role="phd" group="current" %}
-{% include team-list.html role="master" group="current" %}
-{% include team-list.html role="undergrad" group="current" %}
-{% include team-list.html role="programmer" group="current" %}
-{% include team-list.html role="mascot" group="current" %}
-{% endcapture %}
+{% include section.html dark=true %}
 
-{% include centerer.html html=html %}
+We work with a wide range of outstanding groups from around the world, and we're always on the lookout for new and unique perspectives.
+We want to push the frontier of data science and train the next generation of data scientists.
 
-<!-- section break -->
+{%
+  include link.html
+  icon="fas fa-hands-helping"
+  text="Join the Team"
+  link="join"
+  style="button"
+%}
+{:.center}
+
+{% include section.html %}
 
 ## Alumni
 
-We are incredibly proud of all of the COMBINE-lab alumni who have passed through the lab, for whatever period of time they were with us. Below
-is a list of lab alumni (if you feel you're missing from the list and would like to be added, please e-mail us):
+Gone but never forgotten.
+These are past lab members who have moved on to the [Childhood Cancer Data Lab](https://www.alexslemonade.org/data-lab), other school programs, new jobs, or elsewhere.
+They have all made lasting contributions to science and to our hearts. ❤️
 
-{% capture html %}
-{% include team-list.html role="pi" group="alum" mini="true" %}
-{% include team-list.html role="phd_g" group="alum" mini="true" %}
-{% include team-list.html role="master_g" group="alum" mini="true" %}
-{% include team-list.html role="undergrad" group="alum" mini="true" %}
-{% endcapture %}
+{% include list.html data="members" component="portrait" filters="role: pi, group: alum" style="small" %}
+{% include list.html data="members" component="portrait" filters="role: postdoc, group: alum" style="small" %}
+{% include list.html data="members" component="portrait" filters="role: phd, group: alum" style="small" %}
+{% include list.html data="members" component="portrait" filters="role: undergrad, group: alum" style="small" %}
+{% include list.html data="members" component="portrait" filters="role: programmer, group: alum" style="small" %}
+{% include list.html data="members" component="portrait" filters="role: mascot, group: alum" style="small" %}
 
-{% include centerer.html html=html %}
+{% include section.html %}
+
+## Funding
+
+Our work is made possible by funding from several organizations.
+{:.center}
+
+{%
+  include gallery.html
+
+  image1="images/team/gordon-and-betty-moore-foundation.png"
+  link1="https://www.moore.org/"
+  tooltip1="Gordon and Betty Moore Foundation"
+
+  image2="images/team/national-cancer-institute.png"
+  link2="https://www.cancer.gov/"
+  tooltip2="National Cancer Institute"
+
+  image3="images/team/alex's-lemonade-stand-foundation-for-childhood-cancer.png"
+  link3="https://www.alexslemonade.org/"
+  tooltip3="Alex's Lemonade Stand Foundation for Childhood Cancer"
+
+  image4="images/team/chan-zuckerberg-initiative.png"
+  link4="https://chanzuckerberg.com/"
+  tooltip4="Chan Zuckerberg Initiative"
+
+  image5="images/team/cystic-fibrosis-foundation.png"
+  link5="https://www.cff.org/"
+  tooltip5="Cystic Fibrosis Foundation"
+
+  image6="images/team/alfred-p-sloan-foundation.png"
+  link6="https://sloan.org/"
+  tooltip6="Alfred P. Sloan Foundation"
+
+  image7="images/team/national-human-genome-research-institute.png"
+  link7="https://www.genome.gov/"
+  tooltip7="National Human Genome Research Institute"
+
+  image8="images/team/national-heart-lung-and-blood-institute.png"
+  link8="https://www.nhlbi.nih.gov/"
+  tooltip8="National Heart, Lung, and Blood Institute"
+
+  image9="images/team/national-institute-of-neurological-disorders-and-stroke.png"
+  link9="https://www.ninds.nih.gov/"
+  tooltip9="National Institute of Neurological Disorders and Stroke"
+%}
+
+{% include section.html %}
+
+{%
+  include figure.html
+  image="images/team/group-photo-2.jpg"
+  description="The Greene Lab in their natural Philadelphia habitat"
+  width="100%"
+%}

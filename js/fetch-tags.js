@@ -11,19 +11,38 @@ const headers = { Accept: "application/vnd.github.mercy-preview+json" };
 // fetch and add github tags to any tag section with a specified repo
 const createTags = async () => {
   // get tag rows with specified repos
-  const rows = Array.from(document.querySelectorAll("[data-repo]"));
+  const rows = document.querySelectorAll("[data-repo]");
 
   // for each repo
   for (const row of rows) {
-    const tags = await fetchTags(row.dataset.repo);
+    // get props from tag row
+    const repo = row.dataset.repo.trim();
+    const link = row.dataset.link.trim();
+
+    // get tags from github
+    if (!repo) continue;
+    let tags = (await fetchTags(repo)) || [];
+
+    // filter out tags already present in row
+    let existing = Array.from(row.querySelectorAll(".tag"));
+    existing = existing.map((tag) => normalizeString(tag.innerText));
+    tags = tags.filter((tag) => !existing.includes(normalizeString(tag)));
 
     // add tag elements to section
     for (const tag of tags) {
-      const span = document.createElement("span");
-      span.classList.add("tag");
-      span.innerHTML = tag;
-      row.append(span);
+      const a = document.createElement("a");
+      a.classList.add("tag");
+      a.innerHTML = tag;
+      a.href = `${link}?search="tag: ${tag}"`;
+      a.dataset.tooltip = `Show items with the tag "${tag}"`;
+      row.append(a);
     }
+
+    // delete tags container if empty
+    if (!row.innerText.trim()) row.remove();
+
+    // emit "tags done" event for other plugins to listen to
+    window.dispatchEvent(new Event("tagsfetched"));
   }
 };
 

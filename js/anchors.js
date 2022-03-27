@@ -8,17 +8,16 @@ const createAnchors = () => {
   for (const heading of headings) {
     // create anchor link
     const link = document.createElement("a");
-    link.classList.add("fas", "fa-link", "fa-sm", "anchor");
+    link.classList.add("fas", "fa-link", "anchor");
     link.href = "#" + heading.id;
+    link.setAttribute("aria-label", "Link to this section");
     heading.append(link);
 
     // if first heading in the section, move id from heading to parent section
-    if (heading.matches(":first-child")) {
-      let section = heading.closest("section");
-      if (section) {
-        section.id = heading.id;
-        heading.removeAttribute("id");
-      }
+    const parent = heading.parentElement;
+    if (parent.matches("section")) {
+      parent.id = heading.id;
+      heading.removeAttribute("id");
     }
   }
 };
@@ -28,8 +27,8 @@ const onHashChange = () => {
   const id = window.location.hash.replace("#", "");
   let element = document.getElementById(id);
   if (!element) return;
-  element.setAttribute("data-glow", "true");
-  window.setTimeout(() => element.removeAttribute("data-glow"), 2000);
+  element.dataset.glow = true;
+  window.setTimeout(() => (element.dataset.glow = false), 2000);
 };
 
 // start script and add triggers

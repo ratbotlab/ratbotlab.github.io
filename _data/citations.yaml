@@ -1,0 +1,32 @@
+# GENERATED AUTOMATICALLY, DO NOT EDIT
+
+- id: doi:10.1109/tro.2020.3033705
+  title: Implementing Rat-Like Motion for a Small-Sized Biomimetic Robot Based on
+    Extraction of Key Movement Joints
+  authors:
+  - Qing Shi
+  - Zihang Gao
+  - Guanglu Jia
+  - Chang Li
+  - Qiang Huang
+  - Hiroyuki Ishii
+  - Atsuo Takanishi
+  - Toshio Fukuda
+  publisher: IEEE Transactions on Robotics
+  date: '2021-06-01'
+  link: https://doi.org/gprzpv
+  image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/8860/9447299/9263360/shi1-3033705-small.gif
+- id: 10.1109/TMECH.2014.2356595
+  title: Design and Control of a Biomimetic Robotic Rat for Interaction With Laboratory
+    Rats
+  authors:
+  - Qing Shi
+  - Hiroyuki Ishii
+  - Yusuke Sugahara
+  - Atsuo Takanishi
+  - Qiang Huang
+  - Toshio Fukuda
+  publisher: IEEE/ASME Transactions on Mechatronics
+  date: '2015-08-01'
+  link: https://doi.org/gg6p6s
+  image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/3516/7177156/6914558/shi9-2356595-small.gif

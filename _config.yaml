@@ -1,0 +1,71 @@
+### basic settings
+
+# site properties and page defaults
+title: BIT BIOMIMETICS Lab
+description: A bioinspired research lab
+logo: images/logo.svg
+logo-text: false
+header: images/backgrounds/laptop-paper.jpg
+footer: images/backgrounds/laptop-paper.jpg
+baseurl: ""
+
+# site social media and other links
+links:
+  email: bitratbot@gmail.com
+  google-scholar: Qing Shi
+  github: ratbotlab
+
+### advanced settings
+
+# automatic citations
+auto-cite:
+  plugins:
+    - name: sources
+      input:
+        - ../_data/sources.yaml
+  output: ../_data/citations.yaml
+
+# default front matter parameters for markdown files
+defaults:
+  # all markdown files
+  - scope:
+      path: ""
+    values:
+      layout: default
+  # markdown files in /_members
+  - scope:
+      type: "members"
+    values:
+      layout: member
+  # markdown files in /_posts
+  - scope:
+      type: "posts"
+    values:
+      layout: post
+
+# collections
+collections:
+  members:
+    output: true
+
+# sass settings
+sass:
+  sass_dir: css
+
+# syntax highlighting
+highlighter: rouge
+
+# plugins
+plugins:
+  - jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-sitemap
+  # - jekyll-github-metadata
+  # - jekyll-avatar
+  # - jekyll-gist
+  # - jekyll-mentions
+  # - jekyll-relative-links
+  # - jemoji
+
+# jekyll theme
+theme: null

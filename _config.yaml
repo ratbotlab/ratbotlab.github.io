@@ -1,10 +1,10 @@
 ### basic settings
 
 # site properties and page defaults
-title: BIT BIOMIMETICS Lab
+title: BIT BIOMIMETICS LAB
 description: A bioinspired research lab
-logo: images/logo.svg
-logo-text: false
+logo: images/logo.png
+logo-text: true
 header: images/backgrounds/laptop-paper.jpg
 footer: images/backgrounds/laptop-paper.jpg
 baseurl: ""
@@ -12,7 +12,7 @@ baseurl: ""
 # site social media and other links
 links:
   email: bitratbot@gmail.com
-  google-scholar: Qing Shi
+  google-scholar: 3Cwf7JsAAAAJ
   github: ratbotlab
 
 ### advanced settings

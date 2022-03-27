@@ -9,7 +9,7 @@ links:
   orcid: 0000-0001-8713-9213
   home-page: https://smen.bit.edu.cn/sztd/szms/znjqryjs/b101011.htm
   email: shiqing@bit.edu.cn
-  google-scholar: ETJoidYAAAAJ
+  google-scholar: 3Cwf7JsAAAAJ
 ---
 
 Casey is a Professor in the Department of [Biochemistry and Molecular Genetics](https://medschool.cuanschutz.edu/biochemistry) and the founding Director of the [Center for Health AI](https://medschool.cuanschutz.edu/ai) in the [University of Colorado School of Medicine](https://medschool.cuanschutz.edu/).

@@ -14,12 +14,7 @@ We are located on the 3rd floor of the [Brendan Iribe Center for Computer Scienc
 <style type="text/css">
    span.codedirection { unicode-bidi:bidi-override; direction: rtl; }
 </style>
-<span class="codedirection">ude.dmu.sc@bor</span>
-{:.center}
-
-## Phone
-
-[(301) 405-7269](tel:+1-301-405-7269)
+<span class="codedirection">moc.liamg@tobtartib</span>
 {:.center}
 
 ## Address
@@ -28,10 +23,9 @@ We are located on the 3rd floor of the [Brendan Iribe Center for Computer Scienc
 Tip: put both a mailing address for mail/deliveries, AND a navigation-friendly address so people can find their way to you easily.
 {% endcomment %}
 
-3220 Brendan Iribe Center for Computer Science and Engineering
-University of Maryland
-College Park, MD 20740
+No. 5, South Street, Zhongguancun, Haidian District,
+Beijing, China, 100081
 {:.center}
 
-[<i class="fas fa-external-link-alt"></i> on Google Maps](https://www.google.com/maps/place/Brendan+Iribe+Center+for+Computer+Science+and+Engineering/@38.9890953,-76.9387086,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c7e9e636ed11:0x9aaf14503032f4a!8m2!3d38.9890953!4d-76.9365146)
+[<i class="fas fa-external-link-alt"></i> on Google Maps](https://www.google.com/maps/@39.9587578,116.3109551,17.75z)
 {:.center}

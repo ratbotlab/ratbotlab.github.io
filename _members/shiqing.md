@@ -5,7 +5,7 @@ search:
   - Q. Shi
 role: pi
 group: current
-image: https://avatars2.githubusercontent.com/u/8772521?s=400&u=10769b500535dd2607270d619d69738a39bb63ba&v=4
+image: https://smen.bit.edu.cn/images/content/2017-05/20170518063816073610.png
 email: shiqing@bit.edu.cn
 ---
 

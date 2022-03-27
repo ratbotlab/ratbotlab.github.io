@@ -1,18 +1,23 @@
 ---
 ---
 
-@import "variables";
+@import "palettes";
+@import "theme";
 @import "mixins";
 
 .gallery {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 40px;
   justify-content: center;
   align-items: center;
   margin: 40px 0;
-  @include trim-margins;
+  @include trim-v-margins;
 
-  &[data-fit="true"] {
+  .gallery_item {
+    // box-shadow: $shadow;
+  }
+
+  &[data-style="square"] {
     .gallery_item {
       position: relative;
 
@@ -24,25 +29,11 @@
 
       img {
         position: absolute;
+        left: 0;
         top: 0;
         object-fit: cover;
         min-width: 100%;
         min-height: 100%;
-      }
-    }
-  }
-
-  &[data-flat="false"] {
-    .gallery_item {
-      overflow: hidden;
-      box-shadow: $shadow;
-
-      img {
-        transition: transform $fast;
-      }
-
-      &:hover img {
-        transform: scale(1.1);
       }
     }
   }

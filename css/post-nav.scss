@@ -1,17 +1,19 @@
 ---
 ---
 
-@import "variables";
+@import "palettes";
+@import "theme";
 @import "mixins";
 
 .post_nav {
-  @include flex-center;
+  display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  color: $gray;
+  align-items: flex-start;
+  gap: 10px;
+  color: $gray-500;
 
   & > * {
-    width: 45%;
+    width: 50%;
   }
 
   & > *:first-child {
@@ -23,9 +25,10 @@
   }
 
   @media (max-width: $phone) {
+    align-items: center;
+    flex-direction: column;
+
     & > * {
-      width: 100%;
-      margin: 10px 0;
       text-align: center !important;
     }
   }

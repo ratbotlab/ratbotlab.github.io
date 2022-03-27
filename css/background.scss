@@ -1,8 +1,14 @@
 ---
 ---
 
-header,
-footer {
+@import "palettes";
+@import "theme";
+@import "mixins";
+
+.background {
+  position: relative;
+  z-index: 1;
+
   &:before {
     content: "";
     position: absolute;
@@ -13,9 +19,19 @@ footer {
     background-image: var(--background);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 50% 25%;
     opacity: 0.2;
     // filter: blur(5px);
     z-index: -1;
+  }
+
+  &[data-dark="false"] {
+    background: $gray-100;
+    color: $black;
+  }
+
+  &[data-dark="true"] {
+    background: $gray-900;
+    color: $white;
   }
 }

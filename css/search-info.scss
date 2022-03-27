@@ -5,9 +5,11 @@
 @import "theme";
 @import "mixins";
 
-p {
+.search_info {
   margin: 20px 0;
   @include trim-v-margins;
-  text-align: justify;
+  color: $gray-500;
+  text-align: center;
+  font-style: italic;
   line-height: $spacing + 0.3;
 }

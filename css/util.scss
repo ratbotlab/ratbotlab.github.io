@@ -1,10 +1,18 @@
 ---
 ---
 
-@import "variables";
+@import "palettes";
+@import "theme";
+@import "mixins";
 
+.left {
+  text-align: left;
+}
 .center {
   text-align: center;
+}
+.right {
+  text-align: right;
 }
 
 .truncate:not(:focus) {

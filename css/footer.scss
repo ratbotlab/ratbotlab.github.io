@@ -1,41 +1,48 @@
 ---
 ---
 
-@import "variables";
+@import "palettes";
+@import "theme";
 @import "mixins";
 
 footer {
-  box-sizing: border-box;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
   padding: 40px;
   color: $white;
-  background: $dark-gray;
-  font-family: $sans;
-  box-shadow: $shadow;
+  background: $gray-800;
   text-align: center;
-  z-index: 1;
+  box-shadow: $shadow;
+
+  & * {
+    font-family: $sans;
+  }
 
   .footer_row {
-    @include inline-flex-center;
-    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    line-height: $spacing + 0.3;
 
-    .social_link {
-      margin: 0 5px;
-      transition: opacity $fast;
+    .link {
+      margin: 0;
     }
 
-    &:hover .social_link {
+    &:hover .link {
       opacity: 0.25;
     }
 
-    & .social_link:hover {
+    .link:hover {
       opacity: 1;
     }
   }
 
   a {
-    color: $white !important;
-    font-family: $sans;
-    text-decoration: none;
+    color: currentColor;
   }
 }

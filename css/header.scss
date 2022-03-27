@@ -1,89 +1,145 @@
 ---
 ---
 
-@import "variables";
+@import "palettes";
+@import "theme";
 @import "mixins";
 
 header {
-  box-sizing: border-box;
-  position: relative;
-  @include flex-center;
+  display: flex;
   justify-content: space-between;
-  padding: 40px;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px;
   color: $white;
-  background: $dark-gray;
-  font-family: $sans;
+  background: $gray-800;
   box-shadow: $shadow;
-  z-index: 1;
+
+  & * {
+    font-family: $sans;
+  }
 
   .logo_row {
-    @include inline-flex-center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 
-    .logo > * {
+    .logo {
       max-width: 100%;
-      height: 50px;
+      height: 100px;
+      z-index: -1;
     }
-
+    
     .logo_text {
-      font-family: $sans;
-      font-size: 1.5rem;
-      margin: 0 10px;
-      text-align: center;
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      gap: 5px;
+      line-height: $spacing - 0.3;
+
+      .logo_title {
+        font-size: 1.5rem;
+      }
+
+      .logo_subtitle {
+        font-size: 0.9rem;
+        font-style: italic;
+        color: $gray-500;
+      }
     }
   }
 
   .nav_row {
-    @include inline-flex-center;
-    flex-wrap: wrap;
-    font-size: 0.9rem;
-    font-weight: $medium;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-weight: $regular;
     text-transform: uppercase;
     letter-spacing: 1px;
 
-    .nav_link {
-      display: inline-block;
-      padding: 10px;
-      text-align: center;
-      white-space: nowrap;
-      transition: opacity $fast;
+    .link {
+      margin: 0;
+      font-size: 1rem;
     }
 
-    &:hover .nav_link {
+    &:hover .link {
       opacity: 0.25;
     }
 
-    & .nav_link:hover {
+    .link:hover {
       opacity: 1;
     }
   }
 
   a {
-    color: $white !important;
-    font-family: $sans;
+    color: currentColor;
     text-decoration: none;
   }
 
-  @media (max-width: $tablet) {
+  // screen width where nav bar wraps to under logo
+  // adjust based on width of your lab name and nav bar
+  @media (max-width: 1000px) {
     flex-direction: column;
-
-    .logo_row {
-      margin-bottom: 10px;
-    }
+    align-items: stretch;
   }
 
-  @media (max-width: $phone) {
+  // screen width where logo and nav bar go from horizontal to vertical
+  // adjust based on width of your lab name and nav bar
+  @media (max-width: 700px) {
     .logo_row {
-      margin-bottom: 20px;
       flex-direction: column;
+
+      .logo_text {
+        text-align: center;
+        align-items: center;
+      }
     }
 
     .nav_row {
       flex-direction: column;
-      width: 100%;
+      justify-content: center;
 
-      .nav_link {
+      .link {
         width: 100%;
       }
     }
+  }
+
+  // home page fullscreen styles, special to greenelab.com
+  &[data-fullscreen] {
+    transition: min-height $slow;
+  }
+
+  &[data-fullscreen="true"] {
+    justify-content: center;
+    min-height: 100vh;
+
+    .logo {
+      height: 200px;
+      animation: logo_zoom 2s ease forwards;
+
+      @keyframes logo_zoom {
+        0% {
+          transform: scale(2) translateX(14.666%);
+        }
+        50% {
+          transform: scale(1) translateX(14.666%);
+        }
+        100% {
+          transform: scale(1) translateX(0);
+        }
+      }
+    }
+
+    .nav_row {
+      display: none;
+    }
+  }
+
+  &[data-fullscreen="false"] {
+    min-height: 0;
   }
 }

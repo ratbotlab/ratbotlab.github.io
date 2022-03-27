@@ -1,12 +1,13 @@
 ---
 ---
 
-@import "variables";
+@import "palettes";
+@import "theme";
 @import "mixins";
 
 .table_wrapper {
   margin: 40px 0;
-  @include trim-margins;
+  @include trim-v-margins;
   overflow-x: auto;
 
   table {
@@ -16,7 +17,7 @@
     th,
     td {
       padding: 10px 15px;
-      border: solid 1px $light-gray;
+      border: solid 1px $gray-500;
     }
   }
 }

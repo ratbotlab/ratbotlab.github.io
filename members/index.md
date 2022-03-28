@@ -1,5 +1,5 @@
 ---
-title: Team
+title: Members
 nav:
   order: 3
   tooltip: About our team
@@ -9,6 +9,8 @@ redirect_from:
   - /mascots
   - /staff
   - /trainees
+  - /alumni
+  - /team
 ---
 
 # <i class="fas fa-users"></i>Team

@@ -30,3 +30,49 @@
   date: '2015-08-01'
   link: https://doi.org/gg6p6s
   image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/3516/7177156/6914558/shi9-2356595-small.gif
+- id: 10.1109/TMECH.2017.2649681
+  title: A Vision-Based Automated Manipulation System for the Pick-Up of Carbon Nanotubes
+  authors:
+  - Qing Shi
+  - Zhan Yang
+  - Yana Guo
+  - Huaping Wang
+  - Lining Sun
+  - Qiang Huang
+  - Toshio Fukuda
+  publisher: IEEE/ASME Transactions on Mechatronics
+  date: '2017-04-01'
+  link: https://doi.org/f96cgm
+  image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/3516/7900484/7808986/shi1-2649681-small.gif
+- id: 10.1039/D0LC00544D
+  title: Fabrication of vascular smooth muscle-like tissues based on self-organization
+    of circumferentially aligned cells in microengineered hydrogels
+  authors:
+  - Tao Sun
+  - Qing Shi
+  - Qian Liang
+  - Yibing Yao
+  - Huaping Wang
+  - Junzhong Sun
+  - Qiang Huang
+  - Toshio Fukuda
+  publisher: Lab on a Chip
+  date: '2020-01-01'
+  link: https://doi.org/gpczgn
+  image: https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=D0LC00544D&imageInfo.ImageIdentifier.Year=2020
+- id: 10.1016/j.mechmachtheory.2019.103723
+  title: Design and optimization of a lightweight and compact waist mechanism for
+    a robotic rat
+  authors:
+  - Chang Li
+  - Qing Shi
+  - Zihang Gao
+  - Mengchao Ma
+  - Hiroyuki Ishii
+  - Atsuo Takanishi
+  - Qiang Huang
+  - Toshio Fukuda
+  publisher: Mechanism and Machine Theory
+  date: '2020-04-01'
+  link: https://doi.org/gpr4hf
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S0094114X19323298-gr1.jpg

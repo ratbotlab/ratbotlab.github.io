@@ -28,15 +28,9 @@ Our approach to research prioritizes transparency, rigor, and reproducibility.
 
 {%
   include link.html
-  icon="fas fa-book-open"
-  text="More on PubMed"
-  link="https://pubmed.ncbi.nlm.nih.gov/?term=casey%20s%20greene"
-%}
-{%
-  include link.html
   icon="fab fa-google"
   text="More on Google Scholar"
-  link="http://scholar.google.com/citations?hl=en&user=ETJoidYAAAAJ"
+  link="http://scholar.google.com/citations?hl=en&user=3Cwf7JsAAAAJ"
 %}
 {:.center}
 

@@ -4,6 +4,11 @@
     {%- unless file.url contains ".map" -%}
       {% assign path = file.path | replace: ".scss", ".css" %}
       <link href="{{ path | relative_url }}" rel="stylesheet" />
+      <style>
+        body {
+          font-size: 22px;
+        }
+      </style>
     {%- endunless -%}
   {%- endif -%}
 {%- endfor -%}

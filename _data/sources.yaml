@@ -1,5 +1,14 @@
 - id: doi:10.1109/tro.2020.3033705
   image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/8860/9447299/9263360/shi1-3033705-small.gif
 
-- id: doi:10.1109/TMECH.2014.2356595
+- id: 10.1109/TMECH.2014.2356595
   image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/3516/7177156/6914558/shi9-2356595-small.gif
+
+- id: 10.1109/TMECH.2017.2649681
+  image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/3516/7900484/7808986/shi1-2649681-small.gif
+
+- id: 10.1039/D0LC00544D
+  image: https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=D0LC00544D&imageInfo.ImageIdentifier.Year=2020
+
+- id: 10.1016/j.mechmachtheory.2019.103723
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S0094114X19323298-gr1.jpg

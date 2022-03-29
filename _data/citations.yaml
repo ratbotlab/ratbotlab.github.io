@@ -76,3 +76,16 @@
   date: '2020-04-01'
   link: https://doi.org/gpr4hf
   image: https://ars.els-cdn.com/content/image/1-s2.0-S0094114X19323298-gr1.jpg
+- id: doi:10.1109/ICUS52573.2021.9641163
+  title: Design of a Bird-inspired Flapping Wing Robot Based on Spatial Four-bar Mechanism
+  authors:
+  - Jiang Liu
+  - Shi Zhang
+  - Xiaowen Guo
+  - Ruochao Wang
+  - Yao Zou
+  - Qing Shi
+  publisher: 2021 IEEE International Conference on Unmanned Systems (ICUS)
+  date: '2021-10-15'
+  link: https://doi.org/gpsd6j
+  image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9641077/9641061/9641163/9641163-fig-7-source-small.gif

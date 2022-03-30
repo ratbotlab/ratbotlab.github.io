@@ -7,25 +7,36 @@
 
 .citation {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 40px;
-  width: 100%;
-  max-width: 100%;
-  margin: 30px 0;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 160%;
+  max-width: 160%;
+  margin-left: -30%;
+  margin-bottom: 10px;
   @include trim-v-margins;
   padding: 20px;
   border: solid 2px $gray-300;
+  border-radius: 10px;
   text-align: left;
+  transition-duration: 0.6s;
 
   &[data-style="rich"] {
-    padding: 0;
-    border: none;
+    padding: 10px;
+    border: solid 3px $gray-800;
   }
 
+  &:hover{
+    //padding: 15px;
+    box-shadow: $high-shadow;
+    transform: scale(1.05);
+    transition-duration: 0.6s;
+  }
+
+
   .citation_image {
-    width: 150px;
-    height: 150px;
+    width: 80px;
+    height: 80px;
     max-width: 100%;
     flex-shrink: 0;
     overflow: hidden;
@@ -43,12 +54,13 @@
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    gap: 15px;
+    gap: 5px;
     width: 0;
     flex-grow: 1;
+    color: $gray-700;
 
     .citation_title {
-      font-weight: $semi-bold;
+      font-weight: $black;
     }
 
     .tags {
@@ -60,9 +72,11 @@
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
+      color: black;
 
       .link {
         margin: 0;
+        color: black;
       }
     }
   }
@@ -72,8 +86,8 @@
     flex-direction: column;
 
     .citation_image {
-      width: 200px;
-      height: 200px;
+      width: 150px;
+      height: 150px;
     }
 
     .citation_text {

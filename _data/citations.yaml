@@ -89,3 +89,80 @@
   date: '2021-10-15'
   link: https://doi.org/gpsd6j
   image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9641077/9641061/9641163/9641163-fig-7-source-small.gif
+- id: doi:10.1109/RCAR52367.2021.9517534
+  title: Rail-Guided Robotic System for Multi-Configuration Cooperative Micromanipulation
+    Based on Formation Control
+  authors:
+  - Haojun Hu
+  - Huaping Wang
+  - Qing Shi
+  - Han Tao
+  - Qiang Huang
+  - Toshio Fukuda
+  publisher: 2021 IEEE International Conference on Real-time Computing and Robotics
+    (RCAR)
+  date: '2021-07-15'
+  link: https://doi.org/gpsmrf
+  image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9517075/9517076/9517534/9517534-fig-1-source-small.gif
+- id: doi:10.1109/ICRA48506.2021.9560846
+  title: Micro Robotic Manipulation System for the Force Stimulation of Muscle Fiber-like
+    Cell Structure
+  authors:
+  - Xie Chen
+  - Qing Shi
+  - Shingo Shimoda
+  - Tao Sun
+  - Huaping Wang
+  - Qiang Huang
+  - Toshio Fukuda
+  publisher: 2021 IEEE International Conference on Robotics and Automation (ICRA)
+  date: '2021-05-30'
+  link: https://doi.org/gpsmr5
+  image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9560720/9560666/9560846/chen4-p6-chen-small.gif
+- id: doi:10.1109/LRA.2021.3052440
+  title: Automated Fabrication of the High-Fidelity Cellular Micro-Scaffold Through
+    Proportion-Corrective Control of the Photocuring Process
+  authors:
+  - Xin Li
+  - Huaping Wang
+  - Qing Shi
+  - Jiaxin Liu
+  - Zhanhua Xin
+  - Xinyi Dong
+  - Qiang Huang
+  - Toshio Fukuda
+  publisher: IEEE Robotics and Automation Letters
+  date: '2021-04-01'
+  link: https://doi.org/gpsmv3
+  image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/7083369/9285111/9326338/wang1-3052440-small.gif
+- id: doi:10.1007/978-981-16-2336-3_49
+  title: Texture Classification of a Miniature Whisker Sensor with Varied Contact
+    Pose
+  authors:
+  - Shurui Yan
+  - Zihou Wei
+  - Yi Xu
+  - Guanglu Jia
+  - Qiang Huang
+  - Toshio Fukuda
+  - Qing Shi
+  publisher: Communications in Computer and Information Science
+  date: '2021-01-01'
+  link: https://doi.org/gpsmv9
+  image: https://media.springernature.com/w92/springer-static/cover/book/978-981-16-2336-3.jpg
+- id: doi:10.1016/j.actbio.2020.06.010
+  title: Permeable hollow 3D tissue-like constructs engineered by on-chip hydrodynamic-driven
+    assembly of multicellular hierarchical micromodules
+  authors:
+  - Juan Cui
+  - Huaping Wang
+  - Qing Shi
+  - Pietro Ferraro
+  - Tao Sun
+  - Paolo Dario
+  - Qiang Huang
+  - Toshio Fukuda
+  publisher: Acta Biomaterialia
+  date: '2020-09-01'
+  link: https://doi.org/gpsmw5
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S1742706120303317-fx1.jpg

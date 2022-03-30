@@ -45,11 +45,10 @@
     {%- assign publisher = citation.publisher | default: "" -%}
     {%- assign date = citation.date | default: "1900-01-01" -%}
     <div
-      class="citation_authors {% if rich %}truncate{% endif %}"
-      {% if rich %}tabindex="0"{% endif %}
+      class="citation_description"
       style="font-size: medium"
     >
-      <a href="{{ link }}"  style="color: gray; text-decoration: none">
+      <a href="{{ link }}"  style="color: gray; text-decoration: none; word-wrap: break-word">
       {{ authors | join: ", " }}&nbsp; · &nbsp;{{ publisher }}&nbsp; · &nbsp;{{ date | date: "%d %b %Y" }}
       </a>
     </div>

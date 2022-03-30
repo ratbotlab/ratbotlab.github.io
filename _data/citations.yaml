@@ -166,3 +166,294 @@
   date: '2020-09-01'
   link: https://doi.org/gpsmw5
   image: https://ars.els-cdn.com/content/image/1-s2.0-S1742706120303317-fx1.jpg
+- id: doi:10.1109/IROS45743.2020.9341379
+  title: Magnetically Actuated Pick-and-place Operations of Cellular Micro-rings for
+    High-speed Assembly of Micro-scale Biological Tube
+  authors:
+  - Yang Wu
+  - Tao Sun
+  - Qing Shi
+  - Huaping Wang
+  - Qiang Huang
+  - Toshio Fukuda
+  publisher: 2020 IEEE/RSJ International Conference on Intelligent Robots and Systems
+    (IROS)
+  date: '2020-10-24'
+  link: https://doi.org/gpsn6v
+  image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9340668/9340635/9341379/tao1-p6-tao-small.gif
+- id: doi:doi.org/10.1039/C9SM01945F
+  title: Template-based fabrication of spatially organized 3D bioactive constructs
+    using magnetic low-concentration gelation methacrylate (GelMA) microfibers
+  authors:
+  - Tao Sun
+  - Yibing Yao
+  - Qing Shi
+  - Huaping Wang
+  - Paolo Dario
+  - Junzhong Sun
+  - Qiang Huang
+  - Toshio Fukuda
+  publisher: Soft Matter
+  date: '2020-01-01'
+  link: https://doi.org/gpsn6x
+  image: https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C9SM01945F&imageInfo.ImageIdentifier.Year=2020
+- id: doi:10.1109/TNANO.2019.2954312
+  title: Biped Walking of Magnetic Microrobot in Oscillating Field for Indirect Manipulation
+    of Non-Magnetic Objects
+  authors:
+  - Jianing Li
+  - Huaping Wang
+  - Qing Shi
+  - Zhiqiang Zheng
+  - Juan Cui
+  - Tao Sun
+  - Pietro Ferraro
+  - Qiang Huang
+  - Toshio Fukuda
+  publisher: IEEE Transactions on Nanotechnology
+  date: '2020-01-01'
+  link: https://doi.org/gpsn64
+  image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/7729/8933521/8911351/wang1-2954312-small.gif
+- id: doi:10.1109/TNANO.2019.2951285
+  title: Design and Characterization of a 16-DOFs Nanorobotic Manipulation System
+    for Repetitive and Pre-Programmable Tasks
+  authors:
+  - Zhiqiang Yu
+  - Qing Shi
+  - Zihou Wei
+  - Xie Chen
+  - Huaping Wang
+  - Qiang Huang
+  - Toshio Fukuda
+  publisher: IEEE Transactions on Nanotechnology
+  date: '2019-01-01'
+  link: https://doi.org/gpsn65
+  image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/7729/8599030/8894695/yu1-2951285-small.gif
+- id: doi:10.1109/IROS40897.2019.8968207
+  title: Automated Sorting of Rare Cells Based on Autofocusing Visual Feedback in
+    Fluorescence Microscopy
+  authors:
+  - Kailun Bai
+  - Huaping Wang
+  - Qing Shi
+  - Zhiqiang Zheng
+  - Juan Cui
+  - Tao Sun
+  - Qiang Huang
+  - Paolo Dario
+  - Toshio Fukuda
+  publisher: 2019 IEEE/RSJ International Conference on Intelligent Robots and Systems
+    (IROS)
+  date: '2019-11-01'
+  link: https://doi.org/gpsn66
+  image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/8957008/8967518/8968207/bai2-0599-small.gif
+- id: doi:10.1109/IROS40897.2019.8968530
+  title: Identification of Rat Ultrasonic Vocalizations from Mix Sounds of a Robotic
+    Rat in a Noisy Environment
+  authors:
+  - Chang Li
+  - Qing Shi
+  - Zihang Gao
+  - Hiroyuki Ishii
+  - Atsuo Takanishi
+  - Qiang Huang
+  - Toshio Fukuda
+  publisher: 2019 IEEE/RSJ International Conference on Intelligent Robots and Systems
+    (IROS)
+  date: '2019-11-01'
+  link: https://doi.org/gpsn9m
+  image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/8957008/8967518/8968530/li1abc-0746-small.gif
+- id: 10.1109/CBS46900.2019.9114501
+  title: Development of an MEMS based biomimetic whisker sensor for tactile sensing
+  authors:
+  - Zihou Wei
+  - Qing Shi
+  - Chang Li
+  - Shurui Yan
+  - Guanglu Jia
+  - Zhigang Zeng
+  - Qiang Huang
+  - Toshio Fukuda
+  publisher: 2019 IEEE International Conference on Cyborg and Bionic Systems (CBS)
+  date: '2019-09-01'
+  link: https://doi.org/gpspb3
+  image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9108773/9114391/9114501/0029-fig-2-source-small.gif
+- id: 10.1021/acsami.9b09926
+  title: 'Contact Annealing for Self-Soldering: In Situ Investigation into Interfaces
+    between PVP-Coated Silver Nanoelectrodes and Carbon Nanotubes'
+  authors:
+  - Zhiqiang Yu
+  - Qing Shi
+  - Lixin Dong
+  - Huaping Wang
+  - Qiang Huang
+  - Toshio Fukuda
+  publisher: ACS Applied Materials &amp; Interfaces
+  date: '2019-09-06'
+  link: https://doi.org/gpspcv
+  image: https://pubs.acs.org/na101/home/literatum/publisher/achs/journals/content/aamick/2019/aamick.2019.11.issue-39/acsami.9b09926/20190925/images/medium/am9b09926_0008.gif
+- id: 10.3390/mi10090567
+  title: Three-Dimensional Autofocusing Visual Feedback for Automated Rare Cells Sorting
+    in Fluorescence Microscopy
+  authors:
+  - Huaping Wang
+  - Kailun Bai
+  - Juan Cui
+  - Qing Shi
+  - Tao Sun
+  - Qiang Huang
+  - Paolo Dario
+  - Toshio Fukuda
+  publisher: Micromachines
+  date: '2019-08-27'
+  link: https://doi.org/gpspff
+  image: https://www.mdpi.com/micromachines/micromachines-10-00567/article_deploy/html/images/micromachines-10-00567-g001-550.jpg
+- id: 10.1109/AIM.2019.8868662
+  title: Design and Control of a Miniature Quadruped Rat-inspired Robot
+  authors:
+  - Shengjie Wang
+  - Qing Shi
+  - Junhui Gao
+  - Yuxuan Wang
+  - Fansheng Meng
+  - Chang Li
+  - Qiang Huang
+  - Toshio Fukuda
+  publisher: 2019 IEEE/ASME International Conference on Advanced Intelligent Mechatronics
+    (AIM)
+  date: '2019-07-01'
+  link: https://doi.org/gpspfm
+  image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/8847927/8868321/8868662/wang1-p6-wang-small.gif
+- id: 10.1088/1758-5090/ab1ee5
+  title: Engineered tissue micro-rings fabricated from aggregated fibroblasts and
+    microfibres for a bottom-up tissue engineering approach
+  authors:
+  - Tao Sun
+  - Qing Shi
+  - Yibing Yao
+  - Junzhong Sun
+  - Huaping Wang
+  - Qiang Huang
+  - Toshio Fukuda
+  publisher: Biofabrication
+  date: '2019-06-25'
+  link: https://doi.org/10.1088/1758-5090/ab1ee5
+  image: https://cfn-live-content-bucket-iop-org.s3.amazonaws.com/journals/1758-5090/11/3/035029/revision2/bfab1ee5f1_lr.jpg?AWSAccessKeyId=AKIAYDKQL6LTV7YY2HIK&Expires=1649247913&Signature=T3oJgU5qQtzXCuNATUbgzNANOnc%3D
+- id: 10.1016/j.neucom.2018.12.071
+  title: An overview of biomimetic robots with animal behaviors
+  authors:
+  - Zihang Gao
+  - Qing Shi
+  - Toshio Fukuda
+  - Chang Li
+  - Qiang Huang
+  publisher: Neurocomputing
+  date: '2019-03-01'
+  link: https://doi.org/10.1016/j.neucom.2018.12.071
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S0925231218315339-gr1.jpg
+- id: 10.3390/mi10060370
+  title: Magnetic Micromachine Using Nickel Nanoparticles for Propelling and Releasing
+    in Indirect Assembly of Cell-Laden Micromodules
+  authors:
+  - Jianing Li
+  - Huaping Wang
+  - Juan Cui
+  - Qing Shi
+  - Zhiqiang Zheng
+  - Tao Sun
+  - Qiang Huang
+  - Toshio Fukuda
+  publisher: Micromachines
+  date: '2019-06-01'
+  link: https://doi.org/10.3390/mi10060370
+  image: https://www.mdpi.com/micromachines/micromachines-10-00370/article_deploy/html/images/micromachines-10-00370-g001-550.jpg
+- id: 10.1002/smll.201804421
+  title: Multifunctional Noncontact Micromanipulation Using Whirling Flow Generated
+    by Vibrating a Single Piezo Actuator
+  authors:
+  - Xiaoming Liu
+  - Qing Shi
+  - Yuqing Lin
+  - Masaru Kojima
+  - Yasushi Mae
+  - Toshio Fukuda
+  - Qiang Huang
+  - Tatsuo Arai
+  publisher: Small
+  date: '2018-12-17'
+  link: https://doi.org/10.1002/smll.201804421
+  image: https://onlinelibrary.wiley.com/cms/asset/d01464ab-da1e-4889-b8ed-ea74459ca549/smll201804421-fig-0001-m.jpg
+- id: 10.3390/molecules24091762
+  title: Multicellular Co-Culture in Three-Dimensional Gelatin Methacryloyl Hydrogels
+    for Liver Tissue Engineering
+  authors:
+  - Juan Cui
+  - Huaping Wang
+  - Qing Shi
+  - Tao Sun
+  - Qiang Huang
+  - Toshio Fukuda
+  publisher: Molecules
+  date: '2019-05-07'
+  link: https://doi.org/10.3390/molecules24091762
+  image: https://www.mdpi.com/molecules/molecules-24-01762/article_deploy/html/images/molecules-24-01762-ag-550.jpg
+- id: 10.1109/CBS.2018.8612234
+  title: Design of a Compact Rat-inspired Waist Mechanism for a Biomimetic Robot
+  authors:
+  - Mengchao Ma
+  - Qing Shi
+  - Chang Li
+  - Zihang Gao
+  - Shengjie Wang
+  - Mingjie Zou
+  - Qiang Huang
+  - Toshio Fukuda
+  publisher: 2018 IEEE International Conference on Cyborg and Bionic Systems (CBS)
+  date: '2018-10-01'
+  link: https://doi.org/10.1109/cbs.2018.8612234
+  image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/8595708/8612140/8612234/ma2-160-small.gif
+- id: 10.1088/1758-5090/aaf3c9
+  title: Fabrication of perfusable 3D hepatic lobule-like constructs through assembly
+    of multiple cell type laden hydrogel microstructures
+  authors:
+  - Juan Cui
+  - Huaping Wang
+  - Zhiqiang Zheng
+  - Qing Shi
+  - Tao Sun
+  - Qiang Huang
+  - Toshio Fukuda
+  publisher: Biofabrication
+  date: '2018-12-27'
+  link: https://doi.org/10.1088/1758-5090/aaf3c9
+  image: https://cfn-live-content-bucket-iop-org.s3.amazonaws.com/journals/1758-5090/11/1/015016/revision2/bfaaf3c9f1_lr.jpg?AWSAccessKeyId=AKIAYDKQL6LTV7YY2HIK&Expires=1649248415&Signature=tprP7P%2F%2Fnxe8%2FqW2lRpN0VSGS4c%3D
+- id: 10.1109/TMECH.2018.2863269
+  title: A Modified Robotic Rat to Study Rat-Like Pitch and Yaw Movements
+  authors:
+  - Qing Shi
+  - Chang Li
+  - Kang Li
+  - Qiang Huang
+  - Hiroyuki Ishii
+  - Atsuo Takanishi
+  - Toshio Fukuda
+  publisher: IEEE/ASME Transactions on Mechatronics
+  date: '2018-10-01'
+  link: https://doi.org/10.1109/tmech.2018.2863269
+  image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/3516/8492498/8425785/shi1-2863269-small.gif
+- id: 10.1109/RCAR.2018.8621690
+  title: A Miniature Stereo Vision System for a Biomimetic Robotic Rat
+  authors:
+  - Mingjie Zou
+  - Qing Shi
+  - Chang Li
+  - Jing Ye
+  - Mengchao Ma
+  - Zihang Gao
+  - Qiang Huang
+  - Toshio Fukuda
+  publisher: 2018 IEEE International Conference on Real-time Computing and Robotics
+    (RCAR)
+  date: '2018-08-01'
+  link: https://doi.org/10.1109/rcar.2018.8621690
+  image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/8605389/8621626/8621690/rcar18-002-fig-1-source-small.gif

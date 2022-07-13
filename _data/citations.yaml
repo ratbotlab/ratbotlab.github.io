@@ -89,3 +89,18 @@
   date: '2021-10-15'
   link: https://doi.org/gpsd6j
   image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9641077/9641061/9641163/9641163-fig-7-source-small.gif
+- id: doi:10.1109/LRA.2022.3182472
+  title: A Motion Generation Strategy of Robotic Rat Using Imitation Learning for
+    Behavioral Interaction
+  authors:
+  - Hongzhao Xie
+  - Guanglu Jia
+  - Mohamed Al-Khulaqui
+  - Zihang Gao
+  - Xiaowen Guo
+  - Toshio Fukuda
+  - Qing Shi
+  publisher: IEEE Robotics and Automation Letters
+  date: '2022-07-01'
+  link: https://doi.org/gqhb4h
+  image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/7083369/9750005/9795151/shi1-3182472-small.gif

@@ -16,7 +16,6 @@
 {%- endif -%}
 
 {%- assign placeholder = "images/placeholder.svg" | relative_url -%}
-
 <div class="citation" data-style="{{ include.style }}">
   {%- assign link = citation.link | default: "" -%}
   {%- assign image = citation.image | default: "" -%}
@@ -37,24 +36,26 @@
   <div class="citation_text">
     {%- assign title = citation.title | default: "" -%}
     <div class="citation_title">
-      <a href="{{ link }}">
+      <a href="{{ link }}"  style="color: black; font-weight: bold; text-decoration: none">
         {{ title }}
       </a>
     </div>
 
     {%- assign authors = citation.authors | default: emptyarray -%}
-    <div
-      class="citation_authors {% if rich %}truncate{% endif %}"
-      {% if rich %}tabindex="0"{% endif %}
-    >
-      {{ authors | join: ", " }}
-    </div>
-
     {%- assign publisher = citation.publisher | default: "" -%}
     {%- assign date = citation.date | default: "1900-01-01" -%}
-    <div class="citation_details">
-      {{ publisher }}&nbsp; · &nbsp;{{ date | date: "%d %b %Y" }}
+    <div
+      class="citation_description"
+      style="font-size: medium"
+    >
+      <a href="{{ link }}"  style="color: gray; text-decoration: none; word-wrap: break-word">
+      {{ authors | join: ", " }}&nbsp; · &nbsp;{{ publisher }}&nbsp; · &nbsp;{{ date | date: "%d %b %Y" }}
+      </a>
     </div>
+
+<!--    <div class="citation_details" style="font-size: small">-->
+<!--      {{ publisher }}&nbsp; · &nbsp;{{ date | date: "%d %b %Y" }}-->
+<!--    </div>-->
 
     {%- if rich -%}
 

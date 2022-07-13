@@ -18,10 +18,11 @@ $fast: 0.25s ease;
 $slow: 0.5s ease;
 
 // effects
-$shadow: 0 0 5px 0 #00000030;
+$shadow: 0 0 20px 0 #00000020;
+$high-shadow: 0 0 40px 0 #000000fd;
 
 // screen widths
 // used by various components
-$page: 900px; // max-width of the main page column
+$page: 40vw; // max-width of the main page column
 $tablet: 800px; // screen width cutoff point for tablets
 $phone: 500px; // screen width cutoff point for phones

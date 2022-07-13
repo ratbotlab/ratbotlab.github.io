@@ -1,7 +1,7 @@
 ---
 title: Members
 nav:
-  order: 3
+  order: 1
   tooltip: About our team
 redirect_from:
   - /lab-members
